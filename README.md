@@ -18,6 +18,21 @@ This project is only for practice using hexagonal architecture (ports and adapte
 3. **Explore infrastructure** (`src/infrastructure`)
 4. **Analyze UI** (`src/ui`)
 
+## App
+The example App is going to be a ToDo App. The main objectives are:
+- Each todo will have a REQUIRED title and OPTIONAL description.
+- A todo is made up of three states:
+  - Pending
+  - Complete
+  - Cancelled
+  - Deleted
+- Create a Todo
+- Change the state of a Todo.
+- Show a list of Todos.
+- Show buttons to filter the list by state.
+- Update title or description of a Todo
+- Delete a Todo
+
 ## Suggested Articles
 - [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) - Alistair Cockburn
 - [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Robert C. Martin
