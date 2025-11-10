@@ -32,6 +32,7 @@ The example App is going to be a ToDo App. The main objectives are:
 - Show buttons to filter the list by state.
 - Update title or description of a Todo
 - Delete a Todo
+- When the Todo changes the status to Complete it cant be updated.
 
 ## Suggested Articles
 - [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) - Alistair Cockburn
